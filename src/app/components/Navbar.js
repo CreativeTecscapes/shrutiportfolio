@@ -54,7 +54,7 @@ export function Navbar() {
           </button>
         </div>
         <div className="lg:hidden">
-          <Menu onClick={toggleMenu} className="h-6 w-6 text-[#3adff2]white cursor-pointer" />
+          <Menu onClick={toggleMenu} className="h-6 w-6 text-[#3adff2] cursor-pointer" />
         </div>
         {isMenuOpen && (
           <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition lg:hidden">
