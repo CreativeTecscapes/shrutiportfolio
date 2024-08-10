@@ -6,9 +6,9 @@ import { Menu, X } from 'lucide-react'
 
 const menuItems = [
   { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Resume', href: '#' },
-  { name: 'Portfolio', href: '#' },
+  { name: 'Projects', href: '#' },
+  { name: 'Certificates', href: '#' },
+  { name: 'Achivements', href: '#' },
   { name: 'Contact', href: '#' },
 ]
 
@@ -24,12 +24,12 @@ export function Navbar() {
       <div className="mx-auto flex max-w-full items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center -space-x-3">
             <Image
-              src="/logo.png"
+              src="/logo2.png"
               alt="Logo"
               width={80} // Adjust width as needed
               height={80}
             />\
-          <span className="font-bold text-xl text-white">SHRUTI PATIL</span>
+          <span className="font-bold text-xl text-[#3adff2]">SHRUTI PATIL</span>
         </div>
         <div className="hidden lg:flex space-x-8">
           <ul className="inline-flex space-x-8">
@@ -48,7 +48,7 @@ export function Navbar() {
         <div className="hidden lg:block">
           <button
             type="button"
-            className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-white/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+            className="rounded-md bg-[#3adff2] px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-[#3adff2]/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Download Resume
           </button>
@@ -58,17 +58,17 @@ export function Navbar() {
         </div>
         {isMenuOpen && (
           <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition lg:hidden">
-            <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+            <div className="divide-y-2 divide-gray-50 rounded-lg bg-[#121212] shadow-lg ring-1 ring-black ring-opacity-5">
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-0">
                     <Image
-                      src="/logo1.png"
+                      src="/logo2.png"
                       alt="Logo"
-                      width={45} // Adjust width as needed
-                      height={45}
+                      width={60} // Adjust width as needed
+                      height={60}
                     />
-                      <span className="font-bold">SHRUTI PATIL</span>
+                      <span className="font-bold text-[#3adff2]">SHRUTI PATIL</span>
                   </div>
                   <div className="-mr-2">
                     <button
@@ -87,9 +87,9 @@ export function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
+                        className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-white/30"
                       >
-                        <span className="ml-3 text-base font-medium text-gray-900">
+                        <span className="ml-3 text-base font-medium text-white">
                           {item.name}
                         </span>
                       </a>
@@ -98,7 +98,7 @@ export function Navbar() {
                 </div>
                 <button
                   type="button"
-                  className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  className="mt-4 w-full rounded-md bg-[#3adff2] px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-[#3adff2]/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Download Resume
                 </button>
