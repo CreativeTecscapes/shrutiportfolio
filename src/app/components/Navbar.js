@@ -20,7 +20,7 @@ export function Navbar() {
   }
 
   return (
-    <div className="relative w-full bg-[#121212] h-16">
+    <div className="w-full bg-[#121212] h-16 fixed top-0 z-50">
       <div className="mx-auto flex max-w-full items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center -space-x-3">
             <Image

@@ -39,7 +39,7 @@ export default function Hero() {
   return (
     <div className="relative w-full lg:mt-10">
       <div className="mx-auto max-w-8xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-        <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
+        <div className="flex flex-col justify-center px-4 py-20 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 ">
         <button
             type="button"
             className="lg:mt-8 flex max-w-max items-center space-x-2 rounded-md bg-[#3adff2] p-1 font-bold text-black ">
@@ -61,7 +61,7 @@ export default function Hero() {
           <a href="mailto:patilshruti7273@gmail.com"><IoMdMail /></a>
           </div>
         </div>
-        <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 flex justify-center items-center align-middle p-5">
+        <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 flex justify-center items-center align-middle p-9">
           <Image
             className="aspect-[1/1] lg:aspect-[4/3] lg:h-[500px] xl:aspect-[16/9] rounded-full border-4 border-[#3adff2]"
             src='/shruti.jpg'
