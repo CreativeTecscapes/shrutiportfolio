@@ -12,7 +12,7 @@ const Projects = () => {
                 <div className="text-sm lg:text-2xl text-[#3adff2] font-bold">PROJECTS</div>
                 <div className="flex-grow border-t border-white mr-4 ml-4"></div>
             </div>
-            <div className="flex flex-wrap justify-center gap-24 mt-10"> {/* Adjusted gap for more spacing */}
+            <div className="flex flex-wrap justify-center gap-24 mt-20"> {/* Adjusted gap for more spacing */}
             <div className="card bg-base-100 w-80 shadow-2xl rounded-2xl group border border-transparent hover:border-orange-300 transition-all duration-300 bg-[#121212]">
                 <h2 className="card-title text-orange-300 flex items-center justify-center font-bold p-4">ZENITH-AI</h2>
                 <p className="text-white text-center mb-4">AI powered application for bank customers</p>
@@ -59,7 +59,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-        <div className="flex flex-wrap justify-center gap-24 mt-10"> {/* Adjusted gap for more spacing */}
+        <div className="flex flex-wrap justify-center gap-24 mt-20 "> {/* Adjusted gap for more spacing */}
             <div className="card bg-base-100 w-80 shadow-2xl rounded-2xl group border border-transparent hover:border-[#10847E] transition-all duration-300 bg-[#121212]">
                 <h2 className="card-title text-[#10847E] flex items-center justify-center font-bold p-4">MEDISENSE</h2>
                 <p className="text-white text-center mb-4">AI powered prescription analyzer and report simplifier</p>

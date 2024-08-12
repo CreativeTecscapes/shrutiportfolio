@@ -46,12 +46,16 @@ export function Navbar() {
           </ul>
         </div>
         <div className="hidden lg:block">
+          <a href="/Shruti-Resume.pdf" 
+            download
+          >
           <button
             type="button"
             className="rounded-md bg-[#3adff2] px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-[#3adff2]/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Download Resume
           </button>
+          </a>
         </div>
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 text-[#3adff2] cursor-pointer" />
@@ -96,12 +100,17 @@ export function Navbar() {
                     ))}
                   </nav>
                 </div>
+                <a
+                  href="/Shruti-Resume.pdf" 
+                  download
+                >
                 <button
                   type="button"
                   className="mt-4 w-full rounded-md bg-[#3adff2] px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-[#3adff2]/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Download Resume
                 </button>
+                </a>
               </div>
             </div>
           </div>
